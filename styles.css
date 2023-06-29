@@ -71,9 +71,13 @@ input[type="search"] {
 input[type="submit"] {
     flex: 1;
     margin-left: 1rem;
-    background: #333;
+    background: #535353;
     border: 0;
     color: white;
+}
+
+input[type="submit"]:hover {
+    background: #6d6d6d;
 }
 
 /*Layout do main*/
